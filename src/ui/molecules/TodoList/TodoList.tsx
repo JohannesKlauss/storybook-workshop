@@ -1,4 +1,4 @@
-import {Alert, AlertIcon, Box} from "@chakra-ui/react";
+import {Box} from "@chakra-ui/react";
 import {todoStore} from "../../../recoil/todoStore";
 import {useRecoilValue} from "recoil";
 import TodoItem from "../../molecules/TodoItem/TodoItem";
