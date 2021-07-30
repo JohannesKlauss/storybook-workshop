@@ -9,7 +9,6 @@ export interface TodoProps {
 }
 
 const Todo = ({isChecked, label, onToggle, priority}: TodoProps) => {
-
   const [priorityLabel, color] = [['Optional', 'green'], ['Should complete', 'yellow'], ['Urgent', 'red']][priority]
 
   return (
