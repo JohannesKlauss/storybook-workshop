@@ -11,7 +11,7 @@ export default {
     }
   },
   args: {
-    initialHeading: 'Our To-Do List'
+    initialHeading: 'Our Todo List'
   }
 };
 

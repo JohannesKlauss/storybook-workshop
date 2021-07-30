@@ -5,7 +5,7 @@ import TodoList from "../../molecules/TodoList/TodoList";
 const TodoApp = () => {
   return (
     <Box>
-      <Header initialHeading={'Our out-of-space To-Do App'}/>
+      <Header initialHeading={'Our out-of-space Todo App'}/>
       <TodoList/>
     </Box>
   )

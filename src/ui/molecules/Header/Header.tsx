@@ -21,11 +21,11 @@ const Header = ({initialHeading}: HeaderProps) => {
       <Flex justify={'space-between'} align={'center'} px={8}>
         <Text fontSize={'xl'}>{initialHeading} 🚀</Text>
 
-        <Text fontSize={'md'}>{numOfTodos} {numOfTodos !== 1 ? 'To-Dos' : 'To-Do'} today</Text>
+        <Text fontSize={'md'}>{numOfTodos} {numOfTodos !== 1 ? 'Todos' : 'Todo'} today</Text>
         <Text fontSize={'md'}>({numOfDoneTodos} done / {numOfUndoneTodos} left)</Text>
 
         <Actions onDelete={resetTodos} onEdit={() => null}>
-          <IconButton colorScheme={'teal'} icon={<AiOutlinePlus/>} aria-label={'Create To-Do'} mr={4} onClick={onOpen}/>
+          <IconButton colorScheme={'teal'} icon={<AiOutlinePlus/>} aria-label={'Create Todo'} mr={4} onClick={onOpen}/>
         </Actions>
       </Flex>
       <CreateTodoDialog isOpen={isOpen} onClose={onClose}/>
