@@ -5908,10 +5908,10 @@ chownr@^2.0.0:
   resolved "https://registry.yarnpkg.com/chownr/-/chownr-2.0.0.tgz#15bfbe53d2eab4cf70f18a8cd68ebe5b3cb1dece"
   integrity sha512-bIomtDF5KGpdogkLd9VspvFzk9KfpyyGlS8YFVZl7TGPBHL5snIOnxeshwVgPteQ9b4Eydl+pVbIyE1DcvCWgQ==
 
-chromatic@5.10.0-canary.0:
-  version "5.10.0-canary.0"
-  resolved "https://registry.yarnpkg.com/chromatic/-/chromatic-5.10.0-canary.0.tgz#3e6f54cc10f27c7b27be52ae8895ec773eba368d"
-  integrity sha512-q3Y3mnd+0Wz5tVNjIHx+DY0aYIrzC6zlx5YG+JqPIi+cfL3GUL3UO95NIe0QPcpq4GsGpnf/9b3GJmXtqX2DCQ==
+chromatic@5.10.0-next.0:
+  version "5.10.0-next.0"
+  resolved "https://registry.yarnpkg.com/chromatic/-/chromatic-5.10.0-next.0.tgz#a00a5c4e47d063ffd789a7108f520a00c2c79ee5"
+  integrity sha512-Q2F+MapvGqDDqbYaSUcOO+CVfx/TIJJ8oh+h5ebkHxOS9JH2EaRLP9LgR1khRDxZT8wB+MDcm0kgCEfcQYiH/Q==
   dependencies:
     "@actions/core" "^1.2.4"
     "@actions/github" "^4.0.0"
@@ -5932,6 +5932,7 @@ chromatic@5.10.0-canary.0:
     junit-report-builder "2.1.0"
     listr "0.14.3"
     meow "^8.0.0"
+    no-proxy "^1.0.3"
     node-ask "^1.0.1"
     node-fetch "^2.6.0"
     node-loggly-bulk "^2.2.4"
@@ -11431,6 +11432,15 @@ no-case@^3.0.4:
     lower-case "^2.0.2"
     tslib "^2.0.3"
 
+no-proxy@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/no-proxy/-/no-proxy-1.0.3.tgz#35b9b2dff8741157a934e2e14ade56e348532ebb"
+  integrity sha512-JPr13PIb/cENY5+WjuxzhQH74guHYPpyfk+7f7lR7SIpDE1kH0BL9jO7yztANg3jFT8jf58UEimbCBflW5UiTw==
+  dependencies:
+    wildcard "^1.1.2"
+  optionalDependencies:
+    url-parse "^1.2.0"
+
 node-ask@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/node-ask/-/node-ask-1.0.1.tgz#caaa1076cc58e0364267a0903e3eadfac158396b"
@@ -15775,6 +15785,14 @@ url-loader@4.1.1, url-loader@^4.1.1:
     mime-types "^2.1.27"
     schema-utils "^3.0.0"
 
+url-parse@^1.2.0:
+  version "1.5.3"
+  resolved "https://registry.yarnpkg.com/url-parse/-/url-parse-1.5.3.tgz#71c1303d38fb6639ade183c2992c8cc0686df862"
+  integrity sha512-IIORyIQD9rvj0A4CLWsHkBBJuNqWpFQe224b6j9t/ABmquIS0qDU2pY6kl6AuOrL5OkCXHMCFNe1jBcuAggjvQ==
+  dependencies:
+    querystringify "^2.1.1"
+    requires-port "^1.0.0"
+
 url-parse@^1.4.3, url-parse@^1.4.7:
   version "1.5.1"
   resolved "https://registry.yarnpkg.com/url-parse/-/url-parse-1.5.1.tgz#d5fa9890af8a5e1f274a2c98376510f6425f6e3b"
@@ -16275,6 +16293,11 @@ widest-line@^3.1.0:
   integrity sha512-NsmoXalsWVDMGupxZ5R08ka9flZjjiLvHVAWYOKtiKM8ujtZWr9cRffak+uSE48+Ob8ObalXpwyeUiyDD6QFgg==
   dependencies:
     string-width "^4.0.0"
+
+wildcard@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/wildcard/-/wildcard-1.1.2.tgz#a7020453084d8cd2efe70ba9d3696263de1710a5"
+  integrity sha1-pwIEUwhNjNLv5wup02liY94XEKU=
 
 word-wrap@^1.2.3, word-wrap@~1.2.3:
   version "1.2.3"
