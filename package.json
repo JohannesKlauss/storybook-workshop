@@ -69,6 +69,6 @@
     "@types/react": "17.0.26",
     "@types/react-dom": "17.0.9",
     "@types/uuid": "8.3.1",
-    "chromatic": "5.10.1"
+    "chromatic": "6.0.0"
   }
 }
