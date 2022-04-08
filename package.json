@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@chakra-ui/react": "1.8.8",
-    "@emotion/react": "11.8.2",
+    "@emotion/react": "11.9.0",
     "@emotion/styled": "11.8.1",
     "framer-motion": "6.2.9",
     "react": "17.0.2",
