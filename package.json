@@ -67,7 +67,7 @@
     "@types/jest": "27.5.1",
     "@types/node": "16.11.34",
     "@types/react": "18.0.9",
-    "@types/react-dom": "18.0.3",
+    "@types/react-dom": "18.0.5",
     "@types/uuid": "8.3.4",
     "chromatic": "6.5.4"
   }
